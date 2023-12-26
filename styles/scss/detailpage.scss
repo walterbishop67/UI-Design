@@ -1,0 +1,752 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.detailpage-xad {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding-bottom: 15.41rem;
+  display: flex;
+  flex-direction: column;
+
+  .header-6Rw {
+    margin: 0rem 0.5rem 1.6rem 0rem;
+    box-sizing: border-box;
+    padding: 3rem 2.2rem 3.1rem 2.2rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    width: calc(100% - 0.5rem);
+    height: 11.2rem;
+    flex-shrink: 0;
+
+    .auto-group-25j1-btV {
+      width: 135.6rem;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+
+      .image-10-YHw {
+        margin-right: 61.4rem;
+        width: 27.7rem;
+        height: 4.3rem;
+        object-fit: cover;
+        vertical-align: top;
+        flex-shrink: 0;
+      }
+      .reservation-5Ym {
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        background: linear-gradient(180deg, #c3bebe -0%, rgba(197, 211, 215, 0.4635416567) 53.65%, rgba(199, 229, 236, 0) 100%);
+        border-radius: 0.8rem;
+        box-sizing: border-box;
+        padding: 0.9rem 1rem;
+        flex-shrink: 0;
+        margin: 0rem 2rem 0.1rem 0rem;
+
+        .bell-1-CdP {
+          width: 3.2rem;
+          height: 3.2rem;
+          object-fit: cover;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+        .reservasitons-kQ1 {
+          display: flex;
+          align-items: center;
+          line-height: 1.3;
+          color: #000000;
+          justify-content: center;
+          font-size: 2rem;
+          font-weight: 400;
+          font-family: Inter, 'Source Sans Pro';
+          white-space: nowrap;
+          flex-shrink: 0;
+        }
+      }
+      .loginbutton-m4D {
+        font-size: 2rem;
+        line-height: 1.3;
+        background-color: #ed0202;
+        height: 5rem;
+        position: relative;
+        border-radius: 0.8rem;
+        align-items: center;
+        font-family: Inter, 'Source Sans Pro';
+        justify-content: center;
+        font-weight: 600;
+        color: #ffffff;
+        white-space: nowrap;
+        flex-shrink: 0;
+        margin-right: 2rem;
+        width: 12rem;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+        display: flex;
+      }
+      .registerbutton-71b {
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        background-color: #ed0202;
+        border-radius: 0.8rem;
+        width: 12rem;
+        position: relative;
+        display: flex;
+        font-weight: 600;
+        line-height: 1.3;
+        overflow: hidden;
+        justify-content: center;
+        font-family: Inter, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+        height: 5rem;
+        align-items: center;
+        font-size: 2rem;
+        color: #ffffff;
+      }
+    }
+  }
+  .searcbaritems-wFX {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    width: calc(100% - 32.395rem);
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    margin: 0rem 17.395rem 4.9rem 15rem;
+    padding: 3.9rem 0rem 1.4rem 0rem;
+    height: 13.8rem;
+
+    .frame-1-qrh {
+      display: flex;
+      background-color: rgba(99, 255, 208, 0.75);
+      box-sizing: border-box;
+      padding: 0.85rem 1.255rem 0.835rem 1.275rem;
+      height: 100%;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      align-items: center;
+      border-radius: 0.85rem;
+
+      .frame-2-Ae5 {
+        flex-shrink: 0;
+        padding: 1.7rem 4.58rem 1.7rem 1.275rem;
+        height: calc(100% - 0.015rem);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+        margin: 0rem 2.38rem 0.015rem 0rem;
+        box-sizing: border-box;
+        position: relative;
+        border-radius: 0.68rem;
+
+        .loupe-1-gMX {
+          height: 3.4rem;
+          object-fit: cover;
+          vertical-align: top;
+          flex-shrink: 0;
+          margin-right: 1.275rem;
+          width: 3.4rem;
+        }
+        .search-city-18u {
+          letter-spacing: -0.0544rem;
+          color: #c3bebe;
+          align-items: baseline;
+          font-weight: 400;
+          line-height: 0.1199999947;
+          font-size: 2.72rem;
+          font-family: Newsreader, 'Source Sans Pro';
+          white-space: nowrap;
+          flex-shrink: 0;
+          margin-bottom: 0rem;
+          display: flex;
+
+          .search-city-18u-sub-0 {
+            line-height: 0.1360000074;
+            letter-spacing: -0.0544rem;
+            color: #c3bebe;
+            font-family: Newsreader, 'Source Sans Pro';
+            font-size: 2.4rem;
+            font-weight: 400;
+          }
+          .search-city-18u-sub-1 {
+          }
+          .search-city-18u-sub-2 {
+            font-size: 2.4rem;
+            font-weight: 400;
+            line-height: 0.1360000074;
+            letter-spacing: -0.0544rem;
+            color: #c3bebe;
+            font-family: Newsreader, 'Source Sans Pro';
+          }
+        }
+      }
+      .frame-3-wKP {
+        margin: 0rem 2.38rem 0.015rem 0rem;
+        box-sizing: border-box;
+        padding: 1.7rem 1.7rem 1.7rem 1.275rem;
+        height: calc(100% - 0.015rem);
+        overflow: hidden;
+        border-radius: 0.68rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+        flex-shrink: 0;
+
+        .calendar-1-FL5 {
+          margin-right: 1.275rem;
+          width: 3.4rem;
+          height: 3.4rem;
+          object-fit: cover;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+        .check-in-date-PBP {
+          font-size: 2.72rem;
+          letter-spacing: -0.0544rem;
+          color: #c3bebe;
+          white-space: nowrap;
+          flex-shrink: 0;
+          margin-top: 0.85rem;
+          display: flex;
+          font-weight: 400;
+          line-height: 0.1199999947;
+          font-family: Newsreader, 'Source Sans Pro';
+        }
+      }
+      .frame-4-FjP {
+        margin: 0rem 1.445rem 0.015rem 0rem;
+        padding: 1.7rem 0.71rem 1.7rem 1.275rem;
+        height: calc(100% - 0.015rem);
+        overflow: hidden;
+        display: flex;
+        background-color: #ffffff;
+        flex-shrink: 0;
+        box-sizing: border-box;
+        position: relative;
+        align-items: center;
+        border-radius: 0.68rem;
+
+        .calendar-1-xth {
+          margin-right: 1.275rem;
+          width: 3.4rem;
+          height: 3.4rem;
+          object-fit: cover;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+        .check-out-date-uZ3 {
+          font-size: 2.72rem;
+          line-height: 0.1199999947;
+          font-family: Newsreader, 'Source Sans Pro';
+          margin-top: 0.85rem;
+          display: flex;
+          color: #c3bebe;
+          white-space: nowrap;
+          flex-shrink: 0;
+          font-weight: 400;
+          letter-spacing: -0.0544rem;
+        }
+      }
+      .frame-6-pAD {
+        display: flex;
+        align-items: center;
+        border-radius: 0.68rem;
+        flex-shrink: 0;
+        padding-right: 0.765rem;
+        height: calc(100% - 0.015rem);
+        position: relative;
+        background-color: #ffffff;
+        margin: 0rem 2.4rem 0.015rem 0rem;
+        box-sizing: border-box;
+        overflow: hidden;
+
+        .auto-group-hbtm-Yc1 {
+          display: flex;
+          align-items: center;
+          flex-shrink: 0;
+          box-sizing: border-box;
+          padding: 2.125rem 1.34rem 2.125rem 0.765rem;
+          height: 100%;
+
+          .rectangle-31-HZb {
+            height: 2.55rem;
+            object-fit: cover;
+            vertical-align: top;
+            flex-shrink: 0;
+            margin-right: 1.275rem;
+            opacity: 0.5;
+            width: 2.805rem;
+          }
+          .people-d7f {
+            flex-shrink: 0;
+            display: flex;
+            font-size: 2.72rem;
+            font-weight: 400;
+            letter-spacing: -0.0544rem;
+            color: #c3bebe;
+            line-height: 0.1199999947;
+            font-family: Newsreader, 'Source Sans Pro';
+            white-space: nowrap;
+          }
+        }
+        .line-8-9bo {
+          margin-right: 0.595rem;
+          width: 0.085rem;
+          height: 6.8rem;
+          background-color: rgba(0, 0, 0, 0.5);
+          flex-shrink: 0;
+        }
+        .rectangle-30-tJV {
+          margin-top: 0.34rem;
+          opacity: 0.5;
+          width: 2.55rem;
+          height: 2.89rem;
+          object-fit: cover;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+      }
+      .frame-5-nPs {
+        background: linear-gradient(180deg, #00efff -0%, rgba(84, 89, 219, 0.5799999833) 100%);
+        flex-shrink: 0;
+        width: 14.45rem;
+        display: flex;
+        justify-content: center;
+        font-size: 2.6rem;
+        font-family: Inter, 'Source Sans Pro';
+        align-items: center;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        border-radius: 0.8rem;
+        margin-top: 0.015rem;
+        height: calc(100% - 0.015rem);
+        position: relative;
+        font-weight: 600;
+        line-height: 1.2999999707;
+        overflow: hidden;
+        color: #ffffff;
+        white-space: nowrap;
+      }
+    }
+  }
+  .auto-group-csmx-aKj {
+    flex-shrink: 0;
+    margin: 0rem 18.1rem 0rem 15.7rem;
+    width: calc(100% - 33.8rem);
+    height: 55.49rem;
+    position: relative;
+
+    .rectangles-6os {
+      width: 110.2rem;
+      height: 54.6469rem;
+      position: absolute;
+      left: 0;
+      top: 0;
+
+      .line-4-1vq {
+        width: 0.1rem;
+        height: 0.1rem;
+        position: absolute;
+        left: 66.8rem;
+        top: 42.3rem;
+        background-color: #000000;
+      }
+      .rectangle-5-9XF {
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        background: linear-gradient(180deg, #bcbcbc -0%, rgba(255, 172, 70, 0) 100%);
+        border-radius: 1rem;
+        width: 53.8rem;
+        height: 12.3423rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .rectangle-1-qey {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #111111;
+        border-radius: 1rem;
+        width: 53.8rem;
+        height: 6.7987rem;
+      }
+      .rectangle-9-z25 {
+        border-radius: 1rem;
+        width: 53.8rem;
+        height: 12.4469rem;
+        position: absolute;
+        left: 56.3rem;
+        top: 42.2rem;
+        background-color: rgba(217, 217, 217, 0.2300000042);
+      }
+      .rectangle-7-7cV {
+        top: 0;
+        background-color: rgba(26, 29, 31, 0.0700000003);
+        border-radius: 1rem;
+        width: 53.8rem;
+        height: 12.3423rem;
+        position: absolute;
+        left: 56.3rem;
+      }
+      .rectangle-15-qoP {
+        background-color: rgba(255, 238, 216, 0.0700000003);
+        border-radius: 1rem;
+        width: 53.8rem;
+        height: 12.3423rem;
+        position: absolute;
+        left: 56.4rem;
+        top: 0;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+      }
+      .rectangle-20-A4y {
+        background-color: #ff5f5f;
+        border-radius: 1rem;
+        width: 11.2rem;
+        height: 9.6rem;
+        position: absolute;
+        left: 97.4rem;
+        top: 1.4rem;
+      }
+      .rectangle-10-h4u {
+        background-color: #d9d9d9;
+        border-radius: 1rem;
+        width: 10.4rem;
+        height: 12.3423rem;
+        position: absolute;
+        left: 56.3rem;
+        top: 0;
+      }
+      .star-1-DZ3 {
+        width: 3.4rem;
+        height: 3.72rem;
+        position: absolute;
+        left: 68.8rem;
+        top: 43rem;
+        object-fit: contain;
+        vertical-align: top;
+      }
+      .star-3-9hb {
+        top: 43rem;
+        object-fit: contain;
+        vertical-align: top;
+        width: 3.4rem;
+        height: 3.72rem;
+        position: absolute;
+        left: 84.7rem;
+      }
+      .star-4-673 {
+        width: 3.4rem;
+        height: 3.72rem;
+        position: absolute;
+        left: 79.4rem;
+        top: 43rem;
+        object-fit: contain;
+        vertical-align: top;
+      }
+      .star-5-EDF {
+        object-fit: contain;
+        vertical-align: top;
+        width: 3.4rem;
+        height: 3.72rem;
+        position: absolute;
+        left: 74.1rem;
+        top: 43rem;
+      }
+      .star-6-NaM {
+        height: 3.3648rem;
+        position: absolute;
+        left: 89.4rem;
+        top: 43rem;
+        object-fit: contain;
+        vertical-align: top;
+        width: 3.2336rem;
+      }
+      .image-3-7Xw {
+        vertical-align: top;
+        width: 2.5rem;
+        height: 2.9rem;
+        position: absolute;
+        left: 1.9rem;
+        top: 8.1rem;
+        object-fit: cover;
+      }
+      .all-texts-rVX {
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        width: 104.3rem;
+        height: 50.1452rem;
+        position: absolute;
+        left: 4.8rem;
+        top: 1.6014rem;
+
+        .auto-group-cvkk-BXo {
+          display: flex;
+          align-items: center;
+          flex-shrink: 0;
+          margin: 0rem 3.2rem 5.751rem 0rem;
+          height: 9.4486rem;
+
+          .auto-group-feau-JMX {
+            margin-right: 11.2rem;
+            height: 100%;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+
+            .almada-hotel-spa-FGm {
+              display: flex;
+              font-size: 4rem;
+              line-height: 1;
+              color: #ffffff;
+              font-family: Newsreader, 'Source Sans Pro';
+              white-space: nowrap;
+              margin-bottom: 3.0486rem;
+              font-weight: 400;
+              letter-spacing: -0.08rem;
+              flex-shrink: 0;
+            }
+            .r-abel-salazar-9-2805-313-almada-portekiz-kjK {
+              font-weight: 500;
+              line-height: 1.2;
+              white-space: nowrap;
+              display: flex;
+              font-size: 2rem;
+              color: #000000;
+              font-family: Newsreader, 'Source Sans Pro';
+              flex-shrink: 0;
+              margin-right: 1.5rem;
+              letter-spacing: -0.04rem;
+            }
+          }
+          .item-34-4ED {
+            margin: 0rem 3.9rem 0.555rem 0rem;
+            display: flex;
+            line-height: 1;
+            font-family: Newsreader, 'Source Sans Pro';
+            font-size: 4rem;
+            font-weight: 400;
+            letter-spacing: -0.08rem;
+            color: #000000;
+            white-space: nowrap;
+            flex-shrink: 0;
+          }
+          .per-night-mPX {
+            font-weight: 400;
+            line-height: 1;
+            white-space: nowrap;
+            margin-top: 0.4486rem;
+            display: flex;
+            color: #000104;
+            font-family: Newsreader, 'Source Sans Pro';
+            flex-shrink: 0;
+            font-size: 2.4rem;
+            letter-spacing: -0.048rem;
+          }
+          .auto-group-dxg1-VaR {
+            align-items: center;
+            flex-shrink: 0;
+            box-sizing: border-box;
+            padding: 0.299rem 0rem 0.299rem 2.2rem;
+            height: 100%;
+            display: flex;
+
+            .line-5-RDB {
+              height: 0.1rem;
+              background-color: #000000;
+              flex-shrink: 0;
+              margin: 0rem 1.2rem 8.751rem 0rem;
+              width: 0rem;
+            }
+            .item-55-jDs {
+              font-weight: 400;
+              white-space: nowrap;
+              flex-shrink: 0;
+              margin: 0.549rem 9.9rem 0rem 0rem;
+              font-size: 3.6rem;
+              line-height: 1;
+              letter-spacing: -0.072rem;
+              color: #000000;
+              font-family: Newsreader, 'Source Sans Pro';
+              display: flex;
+            }
+            .add-S8H {
+              display: flex;
+              letter-spacing: -0.048rem;
+              color: #000000;
+              white-space: nowrap;
+              margin-top: 2.4486rem;
+              font-size: 2.4rem;
+              font-weight: 700;
+              line-height: 1;
+              font-family: Newsreader, 'Source Sans Pro';
+              flex-shrink: 0;
+            }
+          }
+        }
+        .hotel-details-MFF {
+          flex-shrink: 0;
+          display: flex;
+          font-size: 4rem;
+          line-height: 1;
+          font-family: Newsreader, 'Source Sans Pro';
+          white-space: nowrap;
+          margin: 0rem 22.5rem 2.599rem 0rem;
+          font-weight: 400;
+          letter-spacing: -0.08rem;
+          color: #000000;
+        }
+        .there-is-wi-fi-in-our-rooms-hotel-check-in-time-is-1400-and-check-out-time-is-1200-there-is-an-extra-charge-for-breakfast-FrR {
+          margin-bottom: 5.4699rem;
+          font-size: 2.4rem;
+          font-weight: 400;
+          line-height: 1;
+          color: #000000;
+          font-family: Newsreader, 'Source Sans Pro';
+          max-width: 52.8rem;
+          display: flex;
+          letter-spacing: -0.048rem;
+          flex-shrink: 0;
+        }
+        .favorite-comments-vBs {
+          font-weight: 400;
+          flex-shrink: 0;
+          color: #000000;
+          font-family: Newsreader, 'Source Sans Pro';
+          white-space: nowrap;
+          margin: 0rem 9.5rem 4.922rem 0rem;
+          display: flex;
+          font-size: 4rem;
+          line-height: 1;
+          letter-spacing: -0.08rem;
+        }
+        .auto-group-qq4u-po3 {
+          width: calc(100% - 58.1rem);
+          display: flex;
+          align-items: flex-start;
+          flex-shrink: 0;
+          margin: 0rem 5.4rem 0rem 52.7rem;
+
+          .guest-MY5 {
+            display: flex;
+            font-weight: 400;
+            line-height: 1;
+            letter-spacing: -0.048rem;
+            color: #000000;
+            font-family: Newsreader, 'Source Sans Pro';
+            white-space: nowrap;
+            flex-shrink: 0;
+            margin-right: 2.5rem;
+            font-size: 2.4rem;
+          }
+          .i-am-very-happy-that-i-enjoyed-in-my-holiday-with-this-hotel-h69 {
+            letter-spacing: -0.04rem;
+            color: #000000;
+            font-family: Newsreader, 'Source Sans Pro';
+            flex-shrink: 0;
+            font-weight: 400;
+            max-width: 35.8rem;
+            display: flex;
+            font-size: 2rem;
+            line-height: 1;
+            margin-top: 0.3548rem;
+          }
+        }
+      }
+    }
+    .images-a9w {
+      left: 0;
+      top: 15.2933rem;
+      display: flex;
+      align-items: flex-start;
+      width: 110.1rem;
+      height: 40.1967rem;
+      position: absolute;
+
+      .auto-group-xw1t-ui1 {
+        height: 100%;
+        display: flex;
+        background-repeat: no-repeat;
+        border-radius: 2.7rem;
+        flex-shrink: 0;
+        margin-right: 2.5rem;
+        box-sizing: border-box;
+        padding: 29.107rem 2.4rem 1.59rem 2.3rem;
+        background-image: url('REPLACE_IMAGE:75a0dbb70d96ca414d03721d6716a5234b9da355');
+        align-items: flex-end;
+        background-size: 100% 100%;
+        background-position: center;
+
+        .rectangle-12-2nd {
+          vertical-align: top;
+          border-radius: 2.2rem;
+          flex-shrink: 0;
+          margin-right: 2.4rem;
+          width: 10rem;
+          height: 9.5rem;
+          object-fit: cover;
+        }
+        .rectangle-12-Mpu {
+          flex-shrink: 0;
+          margin-right: 3.3rem;
+          width: 10rem;
+          height: 9.5rem;
+          object-fit: cover;
+          vertical-align: top;
+          border-radius: 2.2rem;
+        }
+        .rectangle-13-gsB {
+          object-fit: cover;
+          vertical-align: top;
+          border-radius: 2.2rem;
+          flex-shrink: 0;
+          margin-right: 3.4rem;
+          width: 10rem;
+          height: 9.5rem;
+        }
+        .rectangle-14-RZs {
+          vertical-align: top;
+          border-radius: 2.2rem;
+          flex-shrink: 0;
+          width: 10rem;
+          height: 9.5rem;
+          object-fit: cover;
+        }
+      }
+      .group-2-j4m {
+        flex-shrink: 0;
+        margin-bottom: 14.1567rem;
+        width: 53.8rem;
+        border-radius: 1rem;
+
+        .rectangle-8-swf {
+          width: 100%;
+          height: 16.3267rem;
+          background-color: rgba(217, 217, 217, 0.25);
+          border-radius: 1rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,485 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.rezervationpage-Mub {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding-bottom: 15.4rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+
+  .header-UzD {
+    margin-bottom: 4.85rem;
+    box-sizing: border-box;
+    padding: 3.1rem 2.2rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 100%;
+    height: 11.2rem;
+    position: relative;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+
+    .auto-group-bxxz-omb {
+      align-items: flex-end;
+      width: 135.6rem;
+      height: 100%;
+      display: flex;
+
+      .image-10-jv9 {
+        margin-right: 61.4rem;
+        width: 27.7rem;
+        height: 4.3rem;
+        object-fit: cover;
+        vertical-align: top;
+        flex-shrink: 0;
+      }
+      .reservation-sWZ {
+        align-items: center;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        background: linear-gradient(180deg, #c3bebe -0%, rgba(197, 211, 215, 0.4635416567) 53.65%, rgba(199, 229, 236, 0) 100%);
+        border-radius: 0.8rem;
+        box-sizing: border-box;
+        padding: 0.9rem 1rem;
+        display: flex;
+        flex-shrink: 0;
+        margin-right: 2rem;
+        height: 100%;
+
+        .bell-1-16y {
+          vertical-align: top;
+          flex-shrink: 0;
+          width: 3.2rem;
+          height: 3.2rem;
+          object-fit: cover;
+        }
+        .reservasitons-MAq {
+          line-height: 1.3;
+          color: #000000;
+          white-space: nowrap;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+          font-size: 2rem;
+          font-weight: 400;
+          font-family: Inter, 'Source Sans Pro';
+        }
+      }
+      .loginbutton-NLq {
+        background-color: #ed0202;
+        border-radius: 0.8rem;
+        display: flex;
+        font-weight: 600;
+        font-family: Inter, 'Source Sans Pro';
+        line-height: 1.3;
+        white-space: nowrap;
+        height: 100%;
+        align-items: center;
+        font-size: 2rem;
+        position: relative;
+        color: #ffffff;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        margin-right: 2rem;
+        width: 12rem;
+        overflow: hidden;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      .registerbutton-EP3 {
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        align-items: center;
+        font-weight: 600;
+        font-family: Inter, 'Source Sans Pro';
+        white-space: nowrap;
+        line-height: 1.3;
+        color: #ffffff;
+        width: 12rem;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        background-color: #ed0202;
+        border-radius: 0.8rem;
+        flex-shrink: 0;
+        overflow: hidden;
+        position: relative;
+      }
+    }
+  }
+  .my-reservations-58m {
+    display: flex;
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+    margin: 0rem 0rem 0.65rem 16.1rem;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    white-space: nowrap;
+  }
+  .auto-group-cvgm-NtZ {
+    margin: 0rem 17.4rem 0rem 11.7rem;
+    width: calc(100% - 29.1rem);
+    height: 64.4rem;
+    position: relative;
+    flex-shrink: 0;
+
+    .rectangle-26-HEq {
+      top: 8.7rem;
+      box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+      background: linear-gradient(180deg, rgba(237, 2, 2, 0.6999999881) -0%, rgba(4, 114, 219, 0.6999999881) 100%);
+      border-radius: 0 5rem 5rem 0;
+      width: 57.1rem;
+      height: 50.5rem;
+      position: absolute;
+      left: 0;
+    }
+    .rectangle-22-x65 {
+      height: 64.4rem;
+      position: absolute;
+      left: 2.8rem;
+      top: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.6999999881) -0%, rgba(255, 238, 217, 0.6999999881) 100%);
+      border-radius: 2rem;
+      width: 112.1rem;
+    }
+    .star-8-Smw {
+      height: 1.8rem;
+      position: absolute;
+      left: 86.8rem;
+      top: 20.9rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 1.7rem;
+    }
+    .star-5-NvV {
+      position: absolute;
+      left: 76rem;
+      top: 20.9rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 1.7rem;
+      height: 1.8rem;
+    }
+    .star-6-KKw {
+      top: 20.9rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 1.7rem;
+      height: 1.8rem;
+      position: absolute;
+      left: 83.2rem;
+    }
+    .star-7-rqf {
+      left: 79.6rem;
+      top: 20.9rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 1.7rem;
+      height: 1.8rem;
+      position: absolute;
+    }
+    .star-4-1Cm {
+      width: 1.7rem;
+      height: 1.8rem;
+      position: absolute;
+      left: 72.4rem;
+      top: 20.9rem;
+      object-fit: contain;
+      vertical-align: top;
+    }
+    .rixos-hotel-YTb {
+      display: flex;
+      font-size: 4.8rem;
+      font-weight: 400;
+      letter-spacing: -0.096rem;
+      color: #000000;
+      width: 31rem;
+      left: 70.4rem;
+      top: 9.75rem;
+      font-family: Newsreader, 'Source Sans Pro';
+      white-space: nowrap;
+      height: 5.8rem;
+      position: absolute;
+      line-height: 1.2000000477;
+    }
+    .line-6-SJ5 {
+      left: 70.7rem;
+      top: 16.2rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 30.8rem;
+      height: 0;
+      position: absolute;
+    }
+    .image-3-z4h {
+      height: 1.9rem;
+      position: absolute;
+      left: 72.4rem;
+      top: 17.9rem;
+      object-fit: cover;
+      vertical-align: top;
+      width: 1.9rem;
+    }
+    .lara-kundu-antalya-vj3 {
+      white-space: nowrap;
+      width: 11.9rem;
+      position: absolute;
+      left: 75.1rem;
+      display: flex;
+      font-size: 1.4rem;
+      color: #000000;
+      font-family: Newsreader, 'Source Sans Pro';
+      height: 1.7rem;
+      top: 18.2rem;
+      font-weight: 400;
+      line-height: 1.2000000817;
+      letter-spacing: -0.028rem;
+    }
+    .line-7-d7f {
+      height: 6.5rem;
+      position: absolute;
+      left: 102.9rem;
+      top: 54.3rem;
+      background-color: #000000;
+      width: 0.1rem;
+    }
+    .frame-17-kxy {
+      left: 30.1rem;
+      top: 34.5rem;
+      overflow: hidden;
+      width: 10rem;
+      height: 10rem;
+      position: absolute;
+    }
+    .planlanan-tarih-JUh {
+      top: 25.1763rem;
+      display: flex;
+      line-height: 1.2000000694;
+      letter-spacing: -0.044rem;
+      font-family: Newsreader, 'Source Sans Pro';
+      white-space: nowrap;
+      width: 14.2rem;
+      left: 72rem;
+      font-size: 2.2rem;
+      font-weight: 400;
+      color: #000000;
+      height: 2.7rem;
+      position: absolute;
+    }
+    .group-3-1P7 {
+      width: 31rem;
+      height: 24.6763rem;
+      position: absolute;
+      left: 70.4rem;
+      top: 24.4rem;
+
+      .rectangle-28-vFB {
+        top: 0;
+        background-color: rgba(135, 196, 255, 0.5);
+        border-radius: 1rem;
+        width: 30.8rem;
+        height: 13.8811rem;
+        position: absolute;
+        left: 0.2rem;
+      }
+      .frame-15-FHT {
+        width: 12.9rem;
+        height: 14.9051rem;
+        position: absolute;
+        left: 15.9rem;
+        top: 0.6827rem;
+        overflow: hidden;
+      }
+      .frame-16-noB {
+        align-items: flex-start;
+        width: 24.522rem;
+        height: 7.611rem;
+        position: absolute;
+        left: 0.9rem;
+        top: 4.3763rem;
+        overflow: hidden;
+        display: flex;
+
+        .image-8-veV {
+          object-fit: cover;
+          vertical-align: top;
+          flex-shrink: 0;
+          margin-right: 0.012rem;
+          width: 9.288rem;
+          height: 7.611rem;
+        }
+        .auto-group-xkub-Fwf {
+          display: flex;
+          white-space: nowrap;
+          background-color: #ffffff;
+          width: 15.222rem;
+          align-items: center;
+          letter-spacing: -0.0361rem;
+          color: #000000;
+          margin-top: 0.8753rem;
+          height: 2.967rem;
+          justify-content: center;
+          line-height: 1.2000000845;
+          font-family: Newsreader, 'Source Sans Pro';
+          flex-shrink: 0;
+          font-size: 1.806rem;
+          font-weight: 400;
+          border-radius: 1.29rem;
+        }
+      }
+      .rectangle-24-XeH {
+        height: 3.4134rem;
+        position: absolute;
+        left: 10.2rem;
+        top: 8.6763rem;
+        background-color: #ffffff;
+        border-radius: 1.29rem;
+        width: 15.2rem;
+      }
+      .check-out-date-4PK {
+        height: 2.2rem;
+        left: 11.95rem;
+        align-items: center;
+        color: #000000;
+        top: 9.4434rem;
+        display: flex;
+        justify-content: center;
+        line-height: 1.2000000845;
+        letter-spacing: -0.0361rem;
+        font-family: Newsreader, 'Source Sans Pro';
+        font-weight: 400;
+        white-space: nowrap;
+        width: 11.6rem;
+        position: absolute;
+        font-size: 1.806rem;
+      }
+      .rectangle-29-k1F {
+        height: 10.2rem;
+        position: absolute;
+        left: 0.3rem;
+        top: 14.4763rem;
+        background-color: rgba(135, 196, 255, 0.5);
+        border-radius: 1rem;
+        width: 30.7rem;
+      }
+      .image-9-53X {
+        height: 10.7rem;
+        position: absolute;
+        left: 0;
+        top: 13.3763rem;
+        object-fit: cover;
+        vertical-align: top;
+        width: 9.3rem;
+      }
+      .rectangle-27-Q5o {
+        width: 15.2rem;
+        height: 3.7rem;
+        position: absolute;
+        left: 10.2rem;
+        top: 17.6763rem;
+        background-color: #ffffff;
+        border-radius: 1rem;
+      }
+      .people-XgD {
+        height: 2.4rem;
+        position: absolute;
+        top: 18.3763rem;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: -0.04rem;
+        color: #000000;
+        font-family: Newsreader, 'Source Sans Pro';
+        display: flex;
+        line-height: 1.2;
+        width: 5.5rem;
+        left: 15.05rem;
+        font-size: 2rem;
+        font-weight: 400;
+        white-space: nowrap;
+      }
+    }
+    .group-4-vCZ {
+      top: 13.1rem;
+      border-radius: 1rem;
+      width: 50.7rem;
+      height: 40.8rem;
+      position: absolute;
+      left: 3.2rem;
+
+      .image-4-TTP {
+        object-fit: cover;
+        vertical-align: top;
+        border-radius: 1rem;
+        width: 50.7rem;
+        height: 40.8rem;
+      }
+    }
+    .group-5-zCR {
+      top: 52.2rem;
+      box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+      border-radius: 0.8rem;
+      width: 23.9rem;
+      height: 10.7rem;
+      position: absolute;
+      left: 91rem;
+
+      .frame-5-aRX {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        background: linear-gradient(180deg, rgba(0, 239, 255, 0.8000000119) -0%, rgba(84, 89, 219, 0.8000000119) 100%);
+        border-radius: 0.8rem;
+        box-sizing: border-box;
+        padding: 4.5rem 2.9rem 3rem 1.7rem;
+        height: 100%;
+        align-items: center;
+
+        .price-K8D {
+          white-space: nowrap;
+          font-family: Newsreader, 'Source Sans Pro';
+          display: flex;
+          font-size: 3.2rem;
+          font-weight: 300;
+          line-height: 1;
+          letter-spacing: -0.064rem;
+          color: #000000;
+          flex-shrink: 0;
+          margin-right: 3.5rem;
+        }
+        .item-2150-deh {
+          line-height: 1;
+          color: #000000;
+          white-space: nowrap;
+          flex-shrink: 0;
+          margin-bottom: 0.1rem;
+          display: flex;
+          font-size: 2.4rem;
+          font-weight: 400;
+          letter-spacing: -0.048rem;
+          font-family: Newsreader, 'Source Sans Pro';
+        }
+      }
+    }
+  }
+}

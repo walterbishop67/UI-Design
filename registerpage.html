@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>RegisterPage</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Newsreader%3A400%2C700"/>
+  <link rel="stylesheet" href="./styles/registerpage.css"/>
+  <script src="./js/register.js"></script>
+</head>
+<body>
+<div class="registerpage-Ru3">
+  <img class="pexels-quang-nguyen-vinh-3355788-1-aQZ" src="./assets/pexels-quang-nguyen-vinh-3355788-1.png"/>
+  <div class="auto-group-lus5-cs3">
+    <div class="register-5u3">Register</div>
+    <div class="auto-group-d8fj-86d">
+      <input type="text" class="emailtext-TPo" id="firstName" placeholder="Name" />
+      <input type="text" class="emailtext-4uP" id="lastName" placeholder="Last Name" />
+    </div>
+    <div class="emailtext-KqK">
+      <div class="line-1-RtM">
+      </div>
+      <div class="auto-group-fv57-MX7">
+        <div class="auto-group-lg8y-Hff">
+          <img class="down-chevron-1-S2m" src="./assets/down-chevron-1.png"/>
+          <div class="item-90-jnZ">+90</div>
+        </div>
+        <input type="text" class="phone-number-KPP" id="phoneNumber" placeholder="Phone Number" />
+      </div>
+    </div>
+    <input type="email" class="emailtext-yyj" id="email" placeholder="E-Mail" />
+    <div class="auto-group-qs1x-TP7">
+      <div class="passwordtext-QZF">
+        <input type="password" class="password-w3P" id="password" placeholder="Password" />
+        <img class="adsz-tasarm-1-EoB" id="passwordToggle" src="./assets/adsz-tasarm-1-4Kj.png" onclick="togglePasswordVisibility('password')"/>
+      </div>
+      <div class="passwordtext-vvu">
+        <input type="password" class="password-again-FTP" id="passwordAgain" placeholder="Password Again" />
+        <img class="adsz-tasarm-1-NY1" id="passwordAgainToggle" src="./assets/adsz-tasarm-1.png"  onclick="togglePasswordVisibility('passwordAgain')" />
+      </div>
+    </div>
+    <div class="auto-group-ww1p-Ub3">
+      <div class="loginbutton-otD" onclick="registerUser()">Register</div>
+      <div class="register-qa1">
+        <div class="already-have-an-accaunt-then-PbX">Already have an accaunt? Then </div>
+        <div class="login-sWh">Login</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
