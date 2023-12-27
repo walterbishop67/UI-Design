@@ -20,8 +20,8 @@ function registerUser() {
 
   var length=phoneNumber.length
 
-  if(length !== 9){
-    alert('Phone number should contain 9 number.')
+  if(length !== 10){
+    alert('You must write 10 digits. (Except the leading 0)')
     return;
   }
 
