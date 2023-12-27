@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="/favicon.ico" />
@@ -10,39 +10,31 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Newsreader%3A400"/>
   <link rel="stylesheet" href="./styles/homepage.css"/>
+  <script src="./js/homepage.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 <body>
 <div class="homepage-LMP">
   <div class="header-5Zs">
     <div class="auto-group-zxq9-cph">
-      <a href="C:\Users\umut3\Desktop\VisualCode\UI_Project14-main\project_14\page-1\homepage.html">
+      <a href="./homepage.html">
         <img class="image-10-MnH" src="./assets/image-10-aDf.png"/>
       </a>  
       <div>
-        <a href="C:\Users\umut3\Desktop\VisualCode\UI_Project14-main\project_14\page-1\rezervationpage.html" style="text-decoration: none">
-          <button class="reservation-Vdb" style="width: 17rem; height: 5rem;  font-size: 2rem;
-        font-weight: 400;
-        line-height: 1.3;
-        color: #1d1c1c;
-        white-space: nowrap;
-        flex-shrink: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor:pointer;
-        font-family: Inter, 'Source Sans Pro'; "><img class="bell-1-EbB" src="./assets/bell-1-v7j.png"/>Rezervations</button>
+        <a href="./rezervationpage.html" style="text-decoration: none">
+          <button class="reservation-Vdb" style="width: 17rem; height: 5rem; font-size: 2rem; font-weight: 400; line-height: 1.3; color: #1d1c1c; white-space: nowrap; flex-shrink: 0; display: flex; align-items: center; justify-content: center; cursor: pointer; font-family: Inter, 'Source Sans Pro'; ">
+            <img class="bell-1-EbB" src="./assets/bell-1-v7j.png"/>Reservation
+          </button>
         </a>
       </div>
       <div>
-        <a href="C:\Users\umut3\Desktop\VisualCode\UI_Project14-main\project_14\page-1\loginpage.html" style="text-decoration: none">
-          <button class="loginbutton-Di1" style="width: 12rem;
-          height: 5rem; cursor:pointer;" type="button" >Login</button>
+        <a href="./loginpage.html" style="text-decoration: none">
+          <button class="loginbutton-Di1" style="width: 12rem; height: 5rem; cursor: pointer;" type="button">Login</button>
         </a>
       </div>
       <div>
-        <a href="C:\Users\umut3\Desktop\VisualCode\UI_Project14-main\project_14\page-1\registerpage.html" style="text-decoration: none">
-          <button class="registerbutton-4yX" style="width: 14rem;
-          height: 5rem; cursor:pointer;" type="submit" >Register</button>
+        <a href="./registerpage.html" style="text-decoration: none">
+          <button class="registerbutton-4yX" style="width: 14rem; height: 5rem; cursor: pointer;" type="submit">Register</button>
         </a>
       </div>
     </div>
@@ -56,36 +48,30 @@
           input[type="text"]:invalid{
               outline:2px solid red;
           }
-      </style>
-        <form><input type="text" pattern="[A-Za-z]*" title="ONLY LETTER" placeholder="City" style="width: 100px; height: 40px; font-family: Newsreader, 'Source Sans Pro'; font-size: 2.72rem; font-weight: 400; letter-spacing: -0.0544rem;
-        color: #c3bebe;"></form>
-        
+        </style>
+        <form>
+          <input type="text" pattern="[A-Za-z]*" title="ONLY LETTER" placeholder="City" style="width: 100px; height: 40px; font-family: Newsreader, 'Source Sans Pro'; font-size: 2.72rem; font-weight: 400; letter-spacing: -0.0544rem; color: #c3bebe;" id="cityInput">
+        </form>
       </div>
       <div class="frame-3-b1j">
-        
-        <input type="date" placeholder="Check-out date" style="width: 185px; height: 40px; font-family: Newsreader, 'Source Sans Pro'; font-size: 2.72rem; font-weight: 400; letter-spacing: -0.0544rem;
-        color: #c3bebe;">
+        <input type="date" placeholder="Check-out date" style="width: 185px; height: 40px; font-family: Newsreader, 'Source Sans Pro'; font-size: 2.72rem; font-weight: 400; letter-spacing: -0.0544rem; color: #c3bebe;" id="checkOutDateInput">
       </div>
 
       <div class="frame-3-b1j">
-        
-        <input type="date"  placeholder="Check-in date" style="width: 185px; height: 40px; font-family: Newsreader, 'Source Sans Pro'; font-size: 2.72rem; font-weight: 400; letter-spacing: -0.0544rem;
-        color: #c3bebe;">
+        <input type="date"  placeholder="Check-in date" id="checkInDate" style="width: 185px; height: 40px; font-family: Newsreader, 'Source Sans Pro'; font-size: 2.72rem; font-weight: 400; letter-spacing: -0.0544rem; color: #c3bebe;">
       </div>
       <div class="frame-6-Mh3">
         <div class="auto-group-css3-5N9">
           <img class="rectangle-31-oow" src="./assets/rectangle-31.png"/>
-          <input type="number" placeholder="People" style="width: 100px; height: 40px; font-family: Newsreader, 'Source Sans Pro'; font-size: 2.72rem; font-weight: 400; letter-spacing: -0.0544rem;
-          color: #c3bebe;">
+          <input type="number" placeholder="People" style="width: 100px; height: 40px; font-family: Newsreader, 'Source Sans Pro'; font-size: 2.72rem; font-weight: 400; letter-spacing: -0.0544rem; color: #c3bebe;" id="peopleInput">
         </div>
         <div class="line-8-rnD">
         </div>
         <img class="rectangle-30-bE1" src="./assets/rectangle-30-cuf.png"/>
       </div>
       <div>
-        <a href="C:\Users\umut3\Desktop\VisualCode\UI_Project14-main\project_14\page-1\filterpage.html" style="text-decoration: none">
-          <button class="frame-5-h29" style="width: 15rem;
-          height: 6.5rem; outline: none; cursor:pointer;" type="submit"  >Search</button>
+        <a href="./filterpage.html" style="text-decoration: none">
+          <button class="frame-5-h29" style="width: 15rem; height: 6.5rem; outline: none; cursor: pointer;" type="submit"  >Search</button>
         </a>
       </div>
     </div>
@@ -118,12 +104,8 @@
     <img class="image-6-WDo" src="./assets/image-6.png"/>
   </div>
 </div>
-<<<<<<< HEAD
 
 
 
 </body>
 </html>
-=======
-</body>
->>>>>>> eb00153c89edcbdf01875849fb1e6d5697a022fe
