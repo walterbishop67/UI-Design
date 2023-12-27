@@ -1,4 +1,3 @@
-
 html {
 	font-size:62.5%;
 }
@@ -43,7 +42,7 @@ body {
 }
 .homepage-LMP .header-5Zs .auto-group-zxq9-cph .image-10-MnH {
   margin-right: 61.4rem;
-  width: 37rem;
+  width: 35rem;
   height: 4.3rem;
   object-fit: cover;
   vertical-align: top;
@@ -183,8 +182,7 @@ body {
   color: #c3bebe;
   font-family: Newsreader, 'Source Sans Pro';
 }
-.homepage-LMP .searcbaritems-uUM .frame-1-QR7 .frame-2-vuF .search-city-AYh .search-city-AYh-sub-1 {
-}
+
 .homepage-LMP .searcbaritems-uUM .frame-1-QR7 .frame-2-vuF .search-city-AYh .search-city-AYh-sub-2 {
   font-size: 2.4rem;
   font-weight: 400;
@@ -521,3 +519,4 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
+

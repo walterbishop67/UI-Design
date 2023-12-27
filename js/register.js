@@ -18,6 +18,13 @@ function registerUser() {
       return;
   }
 
+  var length=phoneNumber.length
+
+  if(length !== 9){
+    alert('Phone number should contain 9 number.')
+    return;
+  }
+
   // Kullanıcı objesini oluştur
   var user = {
       firstName: firstName,
@@ -34,37 +41,9 @@ function registerUser() {
   savedUsers.push(user);
   localStorage.setItem('users', JSON.stringify(savedUsers));
 
-  // Kullanıcı bilgilerini txt dosyasına yaz
-  writeUserInfoToTxt(user);
 
   alert('Registration successful!');
 }
-
-function writeUserInfoToTxt(user) {
-  var userInfo = `Name: ${user.firstName}\nLast Name: ${user.lastName}\nPhone Number: ${user.phoneNumber}\nEmail: ${user.email}\nPassword: ${user.password}\n\n`;
-
-    // Mevcut veriyi al
-    var existingData = localStorage.getItem('user_info') || '';
-
-    // Yeni kullanıcı bilgisini ekleyip localStorage'a kaydet
-    localStorage.setItem('user_info', existingData + userInfo);
-
-    // Dosyayı güncelle
-    updateTxtFile();
-}
-
-function updateTxtFile() {
-  // Mevcut veriyi al
-  var updatedData = localStorage.getItem('user_info') || '';
-
-  // Metin dosyasına yaz
-  var blob = new Blob([updatedData], { type: 'text/plain' });
-  var a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'user_info.txt';
-  a.click();
-}
-
 
 function togglePasswordVisibility(inputId) {
   const passwordInput = document.getElementById(inputId);

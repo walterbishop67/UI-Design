@@ -15,13 +15,29 @@
 <div class="detailpage-xad">
   <div class="header-6Rw">
     <div class="auto-group-25j1-btV">
-      <img class="image-10-YHw" src="./assets/image-10-Cch.png"/>
-      <div class="reservation-5Ym">
-        <img class="bell-1-CdP" src="./assets/bell-1-rJu.png"/>
-        <div class="reservasitons-kQ1">Reservasitons</div>
+      <a href="./homepage.html">
+        <img class="image-10-YHw" src="./assets/image-10-Cch.png"/>
+      </a>  
+      <div >
+        <div >
+          <a href="./rezervationpage.html" style="text-decoration: none">
+            <button class="reservation-5Ym" style="width: 17rem; height: 5rem; font-size: 2rem; font-weight: 400; line-height: 1.3; color: #1d1c1c; white-space: nowrap; flex-shrink: 0; display: flex; align-items: center; justify-content: center; cursor: pointer; font-family: Inter, 'Source Sans Pro'; ">
+              <img class="bell-1-EbB" src="./assets/bell-1-v7j.png"/>Reservation
+            </button>
+          </a>
+        </div>
+        
       </div>
-      <div class="loginbutton-m4D">Login</div>
-      <div class="registerbutton-71b">Register</div>
+      <div >
+        <a href="./loginpage.html" style="text-decoration: none" > 
+          <button class="loginbutton-m4D" style="width: 12rem; height: 5rem; cursor: pointer;" type="button">Login</button>
+        </a>
+      </div>
+      <div >
+        <a href="./registerpage.html" style="text-decoration: none">
+          <button class="registerbutton-71b" style="width: 14rem; height: 5rem; cursor: pointer;" type="submit">Register</button>
+        </a>
+      </div>
     </div>
   </div>
   <div class="searcbaritems-wFX">
@@ -29,29 +45,31 @@
       <div class="frame-2-Ae5">
         <img class="loupe-1-gMX" src="./assets/loupe-1-s5T.png"/>
         <div class="search-city-18u">
-          <span class="search-city-18u-sub-0">Search</span>
-          <span class="search-city-18u-sub-1"> </span>
-          <span class="search-city-18u-sub-2">City</span>
+          <input type="text" class="search-city-input" placeholder="Search City"/>
         </div>
       </div>
       <div class="frame-3-wKP">
         <img class="calendar-1-FL5" src="./assets/calendar-1-j2Z.png"/>
-        <div class="check-in-date-PBP">Check-in date</div>
+        <div class="check-in-date-PBP"><input type="date" class="check-in-date-input" placeholder="Check-in date"/></div>
       </div>
       <div class="frame-4-FjP">
         <img class="calendar-1-xth" src="./assets/calendar-1-aWM.png"/>
-        <div class="check-out-date-uZ3">Check-out date</div>
+        <div class="check-out-date-uZ3"><input type="date" class="check-out-date-input" placeholder="Check-out date"/></div>
       </div>
       <div class="frame-6-pAD">
         <div class="auto-group-hbtm-Yc1">
           <img class="rectangle-31-HZb" src="./assets/rectangle-31-mJq.png"/>
-          <div class="people-d7f">People</div>
+          <div class="people-d7f"><input type="number" class="people-input" placeholder="People"/></div>
         </div>
         <div class="line-8-9bo">
         </div>
         <img class="rectangle-30-tJV" src="./assets/rectangle-30-P77.png"/>
       </div>
-      <div class="frame-5-nPs">Search</div>
+      <div class="frame-5-nPs">
+        <a href="./filterpage.html" style="text-decoration: none">
+          <button class="frame-5-nPs" style="width: 16.5rem; height: 7.8rem; outline: none; cursor: pointer;" type="submit"  >Search</button>
+        </a>
+      </div>
     </div>
   </div>
   <div class="auto-group-csmx-aKj">
@@ -68,8 +86,12 @@
       </div>
       <div class="rectangle-15-qoP">
       </div>
-      <div class="rectangle-20-A4y">
-      </div>
+      <div class="rectangle-20-A4y">  
+        <a href="./rezervationpage.html" style="text-decoration: none;" >
+          <button type="submit" style="display: block; width: 11.5rem; height: 10rem; cursor: pointer; background-color: #ff5f5f; border-radius: 10%; font-weight: bold; font-size: large;" >ADD</button>
+        </a> 
+</div>
+      
       <div class="rectangle-10-h4u">
       </div>
       <img class="star-1-DZ3" src="./assets/star-1.png"/>
@@ -90,11 +112,12 @@
             <div class="line-5-RDB">
             </div>
             <div class="item-55-jDs">55$</div>
-            <div class="add-S8H">
-            ADD 
-            <br/>
+            <div class="add-S8H">ADD
+           
             
+            <br/>
             </div>
+            
           </div>
         </div>
         <div class="hotel-details-MFF">HOTEL DETAILS</div>
@@ -122,10 +145,13 @@
         <img class="rectangle-14-RZs" src="./assets/rectangle-14.png"/>
       </div>
       <div class="group-2-j4m">
-        <div class="rectangle-8-swf">
+        <div class="rectangle-8-swf" >
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<script src="./js/detailpage.js"></script>
+
 </body>

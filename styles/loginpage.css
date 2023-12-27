@@ -1,7 +1,6 @@
-
 html {
 	font-size:62.5%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 * {
 	margin: 0;
@@ -28,11 +27,10 @@ body {
 .loginpage-pZf .pexels-jess-loiterton-4321802-1-xvm {
   margin-right: 11.5rem;
   width: 64.2rem;
-  height: 78.4rem;
+  height: 105.4rem;
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
-  margin-bottom: 30%;
 }
 .loginpage-pZf .auto-group-fgq7-Hi9 {
   margin-bottom: 45rem;
@@ -161,11 +159,6 @@ body {
   line-height: 0.1199999973;
   letter-spacing: -0.064rem;
   text-decoration-line: underline;
-  color: #39a7ff;
-  font-family: Newsreader, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
   color: #39a7ff;
   font-family: Newsreader, 'Source Sans Pro';
   white-space: nowrap;

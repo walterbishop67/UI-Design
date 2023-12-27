@@ -1,6 +1,7 @@
 
 html {
 	font-size:62.5%;
+  overflow-x:hidden;
 }
 * {
 	margin: 0;
@@ -15,9 +16,7 @@ input {
 body {
   width: 144rem;
 }.rezervationpage-Mub {
-  box-sizing: border-box;
-  padding-bottom: 15.4rem;
-  width: 100%;
+  width: 110%;
   overflow: hidden;
   position: relative;
   align-items: center;
@@ -122,10 +121,10 @@ body {
   flex-shrink: 0;
 }
 .rezervationpage-Mub .my-reservations-58m {
-  margin: 0rem 0rem 0.65rem 16.1rem;
+  margin: 0rem 4rem 0.65rem 0.1rem;
   display: flex;
   font-size: 4.8rem;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.2125;
   color: #000000;
   font-family: Inter, 'Source Sans Pro';
@@ -133,7 +132,7 @@ body {
   flex-shrink: 0;
 }
 .rezervationpage-Mub .auto-group-cvgm-NtZ {
-  margin: 0rem 17.4rem 0rem 11.7rem;
+  margin: 5rem 17.4rem 0rem 21.7rem;
   width: calc(100% - 29.1rem);
   height: 64.4rem;
   position: relative;
@@ -235,6 +234,7 @@ body {
   top: 17.9rem;
   object-fit: cover;
   vertical-align: top;
+
 }
 .rezervationpage-Mub .auto-group-cvgm-NtZ .lara-kundu-antalya-vj3 {
   width: 11.9rem;
@@ -317,8 +317,8 @@ body {
   align-items: flex-start;
 }
 .rezervationpage-Mub .auto-group-cvgm-NtZ .group-3-1P7 .frame-16-noB .image-8-veV {
-  margin-right: 0.012rem;
-  width: 9.288rem;
+  margin-right: 2rem;
+  width: 7.288rem;
   height: 7.611rem;
   object-fit: cover;
   vertical-align: top;
@@ -378,13 +378,15 @@ body {
   border-radius: 1rem;
 }
 .rezervationpage-Mub .auto-group-cvgm-NtZ .group-3-1P7 .image-9-53X {
-  width: 9.3rem;
-  height: 10.7rem;
+  width: 7.1rem;
+  height: 7.7rem;
   position: absolute;
   left: 0;
   top: 13.3763rem;
   object-fit: cover;
   vertical-align: top;
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
 .rezervationpage-Mub .auto-group-cvgm-NtZ .group-3-1P7 .rectangle-27-Q5o {
   width: 15.2rem;
@@ -433,7 +435,7 @@ body {
   position: absolute;
   left: 91rem;
   top: 52.2rem;
-  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   border-radius: 0.8rem;
 }
 .rezervationpage-Mub .auto-group-cvgm-NtZ .group-5-zCR .frame-5-aRX {
@@ -465,7 +467,7 @@ body {
   margin-bottom: 0.1rem;
   display: flex;
   font-size: 2.4rem;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1;
   letter-spacing: -0.048rem;
   color: #000000;
