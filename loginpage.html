@@ -3,28 +3,30 @@
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=600, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <title>LoginPage</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Newsreader%3A400"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
   <link rel="stylesheet" href="./styles/loginpage.css"/>
+  <script src="./js/login.js"></script>
 </head>
 <body>
 <div class="loginpage-pZf">
   <img class="pexels-jess-loiterton-4321802-1-xvm" src="./assets/pexels-jess-loiterton-4321802-1.png"/>
   <div class="auto-group-fgq7-Hi9">
-    <div class="login-29w">Login</div>
-    <div class="emailtext-K93">E-Mail</div>
+    <div class="login-29w" >Login</div>
+    <input type="email" id="email" class="emailtext-K93" placeholder="E-Mail" /> 
     <div class="passwordtext-mWq">
-      <div class="password-u7F">Password</div>
+    
+      <input type="password" class="password-u7F" id="password" placeholder="Password" />
       <img class="adsz-tasarm-1-oyK" src="./assets/adsz-tasarm-1-YAm.png"/>
     </div>
     <div class="auto-group-1yjx-uFf">
-      <div class="loginbutton-EYq">Login</div>
+      <div class="loginbutton-EYq" id="loginButton" id="loginContainer" onclick="loginUser()">Login</div>
       <div class="register-6b3">
         <img class="add-user-1-RdK" src="./assets/add-user-1.png"/>
-        <div class="register-xdF">Register</div>
+        <a href="./registerpage.html" class="register-xdF">Register</a>
       </div>
     </div>
   </div>
