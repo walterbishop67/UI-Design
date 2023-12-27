@@ -1,6 +1,7 @@
 
 html {
 	font-size:62.5%;
+  overflow: hidden;
 }
 * {
 	margin: 0;
@@ -27,13 +28,14 @@ body {
 .loginpage-pZf .pexels-jess-loiterton-4321802-1-xvm {
   margin-right: 11.5rem;
   width: 64.2rem;
-  height: 102.4rem;
+  height: 78.4rem;
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  margin-bottom: 30%;
 }
 .loginpage-pZf .auto-group-fgq7-Hi9 {
-  margin-bottom: 10rem;
+  margin-bottom: 45rem;
   width: 57rem;
   align-items: center;
   display: flex;
@@ -41,7 +43,7 @@ body {
   flex-shrink: 0;
 }
 .loginpage-pZf .auto-group-fgq7-Hi9 .login-29w {
-  margin: 0rem 2.1rem 10.7rem 0rem;
+  margin: 0rem 2.1rem 2.7rem 0rem;
   display: flex;
   font-size: 6.4rem;
   font-weight: 400;
@@ -53,7 +55,7 @@ body {
   flex-shrink: 0;
 }
 .loginpage-pZf .auto-group-fgq7-Hi9 .emailtext-K93 {
-  margin-bottom: 6.2rem;
+  margin-bottom: 3.2rem;
   box-sizing: border-box;
   padding: 3.8rem 3.2rem;
   width: 100%;
@@ -114,7 +116,7 @@ body {
   flex-shrink: 0;
 }
 .loginpage-pZf .auto-group-fgq7-Hi9 .auto-group-1yjx-uFf .loginbutton-EYq {
-  margin-bottom: 11.7rem;
+  margin-bottom: 4.7rem;
   width: 100%;
   height: 7rem;
   overflow: hidden;
@@ -159,6 +161,11 @@ body {
   line-height: 0.1199999973;
   letter-spacing: -0.064rem;
   text-decoration-line: underline;
+  color: #39a7ff;
+  font-family: Newsreader, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
   color: #39a7ff;
   font-family: Newsreader, 'Source Sans Pro';
   white-space: nowrap;
