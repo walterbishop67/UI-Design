@@ -15,7 +15,7 @@ input {
 body {
   width: 144rem;
 }.filterpage-Qch {
-  width: 100%;
+  width: 110%;
   overflow: hidden;
   position: relative;
   align-items: center;
@@ -24,12 +24,12 @@ body {
   background-color: #ffffff;
 }
 .filterpage-Qch .header-LmF {
+  margin-right: 2rem;
   box-sizing: border-box;
   padding: 3.1rem 2.2rem;
   width: 100%;
   height: 11.2rem;
   overflow: hidden;
-  position: relative;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   background-color: #ffffff;
   flex-shrink: 0;
@@ -42,7 +42,7 @@ body {
 }
 .filterpage-Qch .header-LmF .auto-group-jnqh-fYd .image-10-CYZ {
   margin-right: 61.4rem;
-  width: 27.7rem;
+  width: 35rem;
   height: 4.3rem;
   object-fit: cover;
   vertical-align: top;
@@ -132,6 +132,7 @@ body {
   box-sizing: border-box;
   padding: 3.9rem 0rem 1.4rem 0rem;
   width: 111.605rem;
+  right: 3rem;
   height: 13.8rem;
   overflow: hidden;
   position: relative;
@@ -527,6 +528,7 @@ body {
   margin: 0rem 1.5rem 1.4rem 0rem;
   display: flex;
   font-size: 2rem;
+  width: 11rem;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: -0.04rem;
@@ -537,9 +539,10 @@ body {
 }
 .filterpage-Qch .auto-group-6f5j-75B .auto-group-uycm-6yw .auto-group-hq2m-TZb .frame-12-Wnm .auto-group-kmgd-mGm .frame-10-guX .and-above-ezm {
   margin-bottom: 1.4rem;
-  display: flex;
+  display: block;
   font-size: 2rem;
   font-weight: 400;
+  width: 15rem;
   line-height: 1.2;
   letter-spacing: -0.04rem;
   color: #000000;
@@ -551,6 +554,7 @@ body {
   margin-right: 1.5rem;
   display: flex;
   font-size: 2rem;
+  width: 11rem;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: -0.04rem;
