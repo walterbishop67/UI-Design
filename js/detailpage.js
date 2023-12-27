@@ -16,3 +16,14 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Get the ADD button
+  var addButton = document.querySelector('.rectangle-20-A4y button');
+
+  // Add click event listener to the ADD button
+  addButton.addEventListener('click', function () {
+      // Display the "Rezervation is created" message
+      alert('Rezervation is created.');
+  });
+});
